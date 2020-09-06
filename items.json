@@ -54,7 +54,22 @@
       "Attack Speed (%)": "1 + 0.15 n"
     },
     "Sticky Bomb": {
-      "Chance to Attach a Bomb (%)": "min((0.05 * n), 1):"
+      "Chance to Attach a Bomb (%)": "min((0.05 * n), 1)"
+    },
+    "Stun Grenade": {
+      "Chance to Stun (%)": "1 - 1 / (0.05 * n + 1)"
+    },
+    "Topaz Brooch": {
+      "Barrier Strength (hp)": "15 * n"
+    },
+    "Tougher Times": {
+      "Chance to Block Damage (hp)": "1 - 1 / (0.15 * n + 1)"
+    },
+    "Tri-Tip Dagger": {
+      "Chance to Bleed Enemy (%)": "min((0.15 * n), 1)"
+    },
+    "Warbanner": {
+      "Radius (m)": "16 + 8 * (n - 1)"
     }
   },
   "uncommon": {
