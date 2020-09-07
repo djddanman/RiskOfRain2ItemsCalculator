@@ -1,41 +1,108 @@
 {
   "common": {
     "Armor-Piercing Rounds": {
-      "property": "Damage to Bosses (%)",
-      "base_value": 1,
-      "first_item": 0.2,
-      "stack_effect": 0.2,
-      "stack_type": "linear",
-      "Boss Damage (%)": "1 + 0.2 * n"
+      "Damage to Bosses": {
+        "effect": "Damage to Bosses (%)",
+        "base_value": 1,
+        "first_item": 0.2,
+        "stack_effect": 0.2,
+        "stack_type": "linear"
+      }
     },
     "Backup Magazine": {
-      "Extra Secondary Charge": "1 + n"
+      "Extra Secondary Charge": {
+        "effect": "Extra Secondary Charge",
+        "base_value": 1,
+        "first_item": 1,
+        "stack_effect": 1,
+        "stack_type": "linear"
+      }
     },
     "Bundle of Fireworks": {
-      "Number of Rockets": "8 + 4 * (n - 1)"
+      "Number of Rockets": {
+        "effect": "Number of Rockets",
+        "base_value": 0,
+        "first_item": 8,
+        "stack_effect": 4,
+        "stack_type": "linear"
+      }
     },
     "Bustling Fungus": {
-      "Healing (%/s)": "0.045 + 0.0225 * (n - 1)",
-      "Radius (m)": "3 + 1.5 * (n - 1)"
+      "Healing": {
+        "effect": "Healing (Percent per second)",
+        "base_value": 0,
+        "first_item": 0.045,
+        "stack_effect": 0.0225,
+        "stack_type": "linear"
+        },
+      "Radius": {
+        "effect": "Radius (m)",
+        "base_value": 0,
+        "first_item": 3,
+        "stack_effect": 1.5,
+        "stack_type": "linear"
+      }
     },
     "Cautious Slug": {
-      "Regeneration (hp/s)": "4 * n"
+      "Regeneration": {
+        "effect": "Regeneration (hp/s)",
+        "base_value": 0,
+        "first_item": 4,
+        "stack_effect": 4,
+        "stack_type": "linear"
+      }
     },
     "Crowbar": {
-      "Damage (%)": "1.5 + 0.5 * (n - 1)"
+      "Damage": {
+        "effect": "Damage (Percent)",
+        "base_value": 1,
+        "first_item": 1.5,
+        "stack_effect": 0.5,
+        "stack_type": "linear"
+      }
     },
     "Energy Drink": {
-      "Sprint Speed (%)": "1.3 + 0.2 * (n - 1)"
+      "Sprint Speed": {
+        "effect": "Sprint Speed (Percent)",
+        "base_value": 1,
+        "first_item": 0.3,
+        "stack_effect": 0.2,
+        "stack_type": "linear"
+      }
     },
     "Focus Crystal": {
-      "Damage (%)": "0.15 * n"
+      "Damage": {
+        "effect": "Damage (Percent)",
+        "base_value": 1,
+        "first_item": 0.15,
+        "stack_effect": 0.15,
+        "stack_type": "linear"
+      }
     },
     "Fresh Meat": {
-      "Regeneration Time (s)": "3 * n"
+      "Regeneration Time": {
+        "effect": "Regeneration Time (s)",
+        "base_value": 0,
+        "first_item": 3,
+        "stack_effect": 3,
+        "stack_type": "linear"
+      }
     },
-    "Gasoline": {
-      "Ignition Range (m)": "12 + 4 * (n - 1)",
-      "Burn Damage (%)": "1.5 + 0.75 * (n - 1)"
+    "Gasoline":{
+      "Ignition Range": {
+        "effect": "Ignition Range (m)",
+        "base_value": 0,
+        "first_item": 12,
+        "stack_effect": 4,
+        "stack_type": "linear"
+      },
+      "Burn Damage": {
+        "effect": "Burn Damage (Percent)",
+        "base_value": 0,
+        "first_item": 1.5,
+        "stack_effect": 0.75,
+        "stack_type": "linear"
+      }
     },
     "Lens-Maker's Glasses": {
       "Critical Strike Chance": "min((0.01 + 0.1 * n), 1)"
