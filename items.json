@@ -1,6 +1,11 @@
 {
   "common": {
     "Armor-Piercing Rounds": {
+      "property": "Damage to Bosses (%)",
+      "base_value": 1,
+      "first_item": 0.2,
+      "stack_effect": 0.2,
+      "stack_type": "linear",
       "Boss Damage (%)": "1 + 0.2 * n"
     },
     "Backup Magazine": {
@@ -33,7 +38,7 @@
       "Burn Damage (%)": "1.5 + 0.75 * (n - 1)"
     },
     "Lens-Maker's Glasses": {
-      "Critical Strike Chance": "min((0.01 + 0.1 * n), 1"
+      "Critical Strike Chance": "min((0.01 + 0.1 * n), 1)"
     },
     "Medkit": {
       "Healing (hp)": "25 * n"
@@ -73,15 +78,11 @@
     }
   },
   "uncommon": {
-
   },
   "rare": {
-
   },
   "boss": {
-
   },
   "lunar": {
-
   }
 }
