@@ -34,7 +34,7 @@
         "first_item": 0.045,
         "stack_effect": 0.0225,
         "stack_type": "linear"
-        },
+      },
       "Radius": {
         "effect": "Radius (m)",
         "base_value": 0,
@@ -88,7 +88,7 @@
         "stack_type": "linear"
       }
     },
-    "Gasoline":{
+    "Gasoline": {
       "Ignition Range": {
         "effect": "Ignition Range (m)",
         "base_value": 0,
@@ -105,51 +105,127 @@
       }
     },
     "Lens-Maker's Glasses": {
-      "Critical Strike Chance": "min((0.01 + 0.1 * n), 1)"
+      "Critical Strike Chance": {
+        "effect": "Critical Strike Chance (Percent)",
+        "base_value": 0.01,
+        "first_item": 0.1,
+        "stack_effect": 0.1,
+        "stack_type": "linear",
+        "limit": 1
+      }
     },
     "Medkit": {
-      "Healing (hp)": "25 * n"
+      "Healing": {
+        "effect": "Healing (hp)",
+        "base_value": 0,
+        "first_item": 25,
+        "stack_effect": 25,
+        "stack_type": "linear"
+      }
     },
     "Monster Tooth": {
-      "Healing (hp)": "8 * n"
+      "Healing": {
+        "effect": "Healing (hp)",
+        "base_value": 0,
+        "first_item": 8,
+        "stack_effect": 8,
+        "stack_type": "linear"
+      }
     },
     "Paul's Goat Hoof": {
-      "Movement Speed (%)": "1 + 0.14 * n"
+      "Movement Speed": {
+        "effect": "Movement Speed (Percent)",
+        "base_value": 1,
+        "first_item": 0.14,
+        "stack_effect": 0.14,
+        "stack_type": "linear"
+      }
     },
     "Personal Shield Generator": {
-      "Shield (%)": "1 + 0.08 * n"
+      "Shield": {
+        "effect": "Shield (Percent)",
+        "base_value": 0,
+        "first_item": 0.08,
+        "stack_effect": 0.08,
+        "stack_type": "linear"
+      }
     },
     "Repulsion Armor Plate": {
-      "Damage Reduction (hp)": "5 * n"
+      "Damage Reduction": {
+        "effect": "Damage Reduction (hp)",
+        "base_value": 0,
+        "first_item": 5,
+        "stack_effect": 5,
+        "stack_type": "linear"
+      }
     },
     "Soldier's Syringe": {
-      "Attack Speed (%)": "1 + 0.15 n"
+      "Attack Speed": {
+        "effect": "Attack Speed (Percent)",
+        "base_value": 1,
+        "first_item": 0.15,
+        "stack_effect": 0.15,
+        "stack_type": "linear"
+      }
     },
     "Sticky Bomb": {
-      "Chance to Attach a Bomb (%)": "min((0.05 * n), 1)"
+      "Bomb Chance": {
+        "effect": "Chance to Attach a Bomb (Percent)",
+        "base_value": 0,
+        "first_item": 0.05,
+        "stack_effect": 0.05,
+        "stack_type": "linear",
+        "limit": 1,
+        "proc": true
+      }
     },
     "Stun Grenade": {
-      "Chance to Stun (%)": "1 - 1 / (0.05 * n + 1)"
+      "Chance to Stun": {
+        "effect": "Chance to Stun (Percent)",
+        "base_value": 0,
+        "first_item": 0.05,
+        "stack_effect": 0.05,
+        "stack_type": "hyperbolic",
+        "proc": true
+      }
     },
     "Topaz Brooch": {
-      "Barrier Strength (hp)": "15 * n"
+      "Barrier Strength": {
+        "effect": "Barrier Strength (hp)",
+        "base_value": 0,
+        "first_item": 15,
+        "stack_effect": 15,
+        "stack_type": "linear"
+      }
     },
     "Tougher Times": {
-      "Chance to Block Damage (hp)": "1 - 1 / (0.15 * n + 1)"
+      "Chance to Block Damage": {
+        "effect": "Chance to Block Damage (Percent)",
+        "base_value": 0,
+        "first_item": 0.15,
+        "stack_effect": 0.15,
+        "stack_type": "hyperbolic"
+      }
     },
     "Tri-Tip Dagger": {
-      "Chance to Bleed Enemy (%)": "min((0.15 * n), 1)"
+      "Chance to Bleed": {
+        "effect": "Chance to Bleed Enemy (Percent)",
+        "base_value": 0,
+        "first_item": 0.15,
+        "stack_effect": 0.15,
+        "stack_type": "linear",
+        "limit": 1,
+        "proc": true
+      }
     },
     "Warbanner": {
-      "Radius (m)": "16 + 8 * (n - 1)"
+      "Radius": {
+        "effect": "Radius (m)",
+        "base_value": 0,
+        "first_item": 16,
+        "stack_effect": 8,
+        "stack_type": "linear"
+      }
     }
-  },
-  "uncommon": {
-  },
-  "rare": {
-  },
-  "boss": {
-  },
-  "lunar": {
   }
 }

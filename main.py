@@ -30,7 +30,7 @@ def get_items_dict():
 
         for rarity in data:
             for item in data[rarity]:
-                items[item[]
+                _items_dict[]
 
 
 
