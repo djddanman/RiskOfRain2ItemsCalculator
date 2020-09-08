@@ -1,111 +1,111 @@
 {
   "common": {
-    "Armor-Piercing Rounds": {
-      "Damage to Bosses": {
+    "Armor-Piercing Rounds": [
+      {
         "effect": "Damage to Bosses (%)",
         "base_value": 1,
         "first_item": 0.2,
         "stack_effect": 0.2,
         "stack_type": "linear"
       }
-    },
-    "Backup Magazine": {
-      "Extra Secondary Charge": {
+    ],
+    "Backup Magazine": [
+      {
         "effect": "Extra Secondary Charge",
         "base_value": 1,
         "first_item": 1,
         "stack_effect": 1,
         "stack_type": "linear"
       }
-    },
-    "Bundle of Fireworks": {
-      "Number of Rockets": {
+    ],
+    "Bundle of Fireworks": [
+      {
         "effect": "Number of Rockets",
         "base_value": 0,
         "first_item": 8,
         "stack_effect": 4,
         "stack_type": "linear"
       }
-    },
-    "Bustling Fungus": {
-      "Healing": {
+    ],
+    "Bustling Fungus": [
+      {
         "effect": "Healing (Percent per second)",
         "base_value": 0,
         "first_item": 0.045,
         "stack_effect": 0.0225,
         "stack_type": "linear"
       },
-      "Radius": {
+      {
         "effect": "Radius (m)",
         "base_value": 0,
         "first_item": 3,
         "stack_effect": 1.5,
         "stack_type": "linear"
       }
-    },
-    "Cautious Slug": {
-      "Regeneration": {
+    ],
+    "Cautious Slug": [
+      {
         "effect": "Regeneration (hp/s)",
         "base_value": 0,
         "first_item": 4,
         "stack_effect": 4,
         "stack_type": "linear"
       }
-    },
-    "Crowbar": {
-      "Damage": {
+    ],
+    "Crowbar": [
+      {
         "effect": "Damage (Percent)",
         "base_value": 1,
         "first_item": 1.5,
         "stack_effect": 0.5,
         "stack_type": "linear"
       }
-    },
-    "Energy Drink": {
-      "Sprint Speed": {
+    ],
+    "Energy Drink": [
+      {
         "effect": "Sprint Speed (Percent)",
         "base_value": 1,
         "first_item": 0.3,
         "stack_effect": 0.2,
         "stack_type": "linear"
       }
-    },
-    "Focus Crystal": {
-      "Damage": {
+    ],
+    "Focus Crystal": [
+      {
         "effect": "Damage (Percent)",
         "base_value": 1,
         "first_item": 0.15,
         "stack_effect": 0.15,
         "stack_type": "linear"
       }
-    },
-    "Fresh Meat": {
-      "Regeneration Time": {
+    ],
+    "Fresh Meat": [
+      {
         "effect": "Regeneration Time (s)",
         "base_value": 0,
         "first_item": 3,
         "stack_effect": 3,
         "stack_type": "linear"
       }
-    },
-    "Gasoline": {
-      "Ignition Range": {
+    ],
+    "Gasoline": [
+      {
         "effect": "Ignition Range (m)",
         "base_value": 0,
         "first_item": 12,
         "stack_effect": 4,
         "stack_type": "linear"
       },
-      "Burn Damage": {
+      {
         "effect": "Burn Damage (Percent)",
         "base_value": 0,
         "first_item": 1.5,
         "stack_effect": 0.75,
         "stack_type": "linear"
       }
-    },
-    "Lens-Maker's Glasses": {
-      "Critical Strike Chance": {
+    ],
+    "Lens-Maker's Glasses": [
+      {
         "effect": "Critical Strike Chance (Percent)",
         "base_value": 0.01,
         "first_item": 0.1,
@@ -113,63 +113,63 @@
         "stack_type": "linear",
         "limit": 1
       }
-    },
-    "Medkit": {
-      "Healing": {
+    ],
+    "Medkit": [
+      {
         "effect": "Healing (hp)",
         "base_value": 0,
         "first_item": 25,
         "stack_effect": 25,
         "stack_type": "linear"
       }
-    },
-    "Monster Tooth": {
-      "Healing": {
+    ],
+    "Monster Tooth": [
+      {
         "effect": "Healing (hp)",
         "base_value": 0,
         "first_item": 8,
         "stack_effect": 8,
         "stack_type": "linear"
       }
-    },
-    "Paul's Goat Hoof": {
-      "Movement Speed": {
+    ],
+    "Paul's Goat Hoof": [
+      {
         "effect": "Movement Speed (Percent)",
         "base_value": 1,
         "first_item": 0.14,
         "stack_effect": 0.14,
         "stack_type": "linear"
       }
-    },
-    "Personal Shield Generator": {
-      "Shield": {
+    ],
+    "Personal Shield Generator": [
+      {
         "effect": "Shield (Percent)",
         "base_value": 0,
         "first_item": 0.08,
         "stack_effect": 0.08,
         "stack_type": "linear"
       }
-    },
-    "Repulsion Armor Plate": {
-      "Damage Reduction": {
+    ],
+    "Repulsion Armor Plate": [
+      {
         "effect": "Damage Reduction (hp)",
         "base_value": 0,
         "first_item": 5,
         "stack_effect": 5,
         "stack_type": "linear"
       }
-    },
-    "Soldier's Syringe": {
-      "Attack Speed": {
+    ],
+    "Soldier's Syringe": [
+      {
         "effect": "Attack Speed (Percent)",
         "base_value": 1,
         "first_item": 0.15,
         "stack_effect": 0.15,
         "stack_type": "linear"
       }
-    },
-    "Sticky Bomb": {
-      "Bomb Chance": {
+    ],
+    "Sticky Bomb": [
+      {
         "effect": "Chance to Attach a Bomb (Percent)",
         "base_value": 0,
         "first_item": 0.05,
@@ -178,9 +178,9 @@
         "limit": 1,
         "proc": true
       }
-    },
-    "Stun Grenade": {
-      "Chance to Stun": {
+    ],
+    "Stun Grenade": [
+      {
         "effect": "Chance to Stun (Percent)",
         "base_value": 0,
         "first_item": 0.05,
@@ -188,27 +188,27 @@
         "stack_type": "hyperbolic",
         "proc": true
       }
-    },
-    "Topaz Brooch": {
-      "Barrier Strength": {
+    ],
+    "Topaz Brooch": [
+      {
         "effect": "Barrier Strength (hp)",
         "base_value": 0,
         "first_item": 15,
         "stack_effect": 15,
         "stack_type": "linear"
       }
-    },
-    "Tougher Times": {
-      "Chance to Block Damage": {
+    ],
+    "Tougher Times": [
+      {
         "effect": "Chance to Block Damage (Percent)",
         "base_value": 0,
         "first_item": 0.15,
         "stack_effect": 0.15,
         "stack_type": "hyperbolic"
       }
-    },
-    "Tri-Tip Dagger": {
-      "Chance to Bleed": {
+    ],
+    "Tri-Tip Dagger": [
+      {
         "effect": "Chance to Bleed Enemy (Percent)",
         "base_value": 0,
         "first_item": 0.15,
@@ -217,15 +217,15 @@
         "limit": 1,
         "proc": true
       }
-    },
-    "Warbanner": {
-      "Radius": {
+    ],
+    "Warbanner": [
+      {
         "effect": "Radius (m)",
         "base_value": 0,
         "first_item": 16,
         "stack_effect": 8,
         "stack_type": "linear"
       }
-    }
+    ]
   }
 }
