@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import PySimpleGUI as sg
-import json
+import json, Item
+from pathlib import Path
+
+_items_dict = dict()
 
 values = list()
 AP_round = {"common": {"Armor-Piercing Rounds": {"property": "Damage to Bosses (Percent)", "base_value": 1, "first_item": 0.2, "stack_effect": 0.2, "stack_type": "linear"}}}
@@ -24,21 +27,24 @@ def get_items_dict():
     if _items_dict:
         return _items_dict
 
-    with open('items.json', 'r') as file:
+    with open(Path(__file__).absolute().parent / 'items.json', 'r') as file:
         data = json.load(file)
         items = dict()
 
         for rarity in data:
             for item in data[rarity]:
-                _items_dict[]
+                _items_dict[item] = Item()
 
 
 
-def select_item_gui():
+#def select_item_gui():
 
 
 
 if __name__ == '__main__':
+
+    items_dict = get_items_dict()
+
     item = stun_grenade["common"]["Stun Grenade"]
 
     n = np.arange(0, 50, 1)
