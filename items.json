@@ -29,7 +29,7 @@
     },
     "Bustling Fungus": {
       "Healing": {
-        "effect": "Healing (Percent per second)",
+        "effect": "Healing (%/s)",
         "base_value": 0,
         "first_item": 0.045,
         "stack_effect": 0.0225,
@@ -54,7 +54,7 @@
     },
     "Crowbar": {
       "Damage": {
-        "effect": "Damage (Percent)",
+        "effect": "Damage (%)",
         "base_value": 1,
         "first_item": 1.5,
         "stack_effect": 0.5,
@@ -63,7 +63,7 @@
     },
     "Energy Drink": {
       "Sprint Speed": {
-        "effect": "Sprint Speed (Percent)",
+        "effect": "Sprint Speed (%)",
         "base_value": 1,
         "first_item": 0.3,
         "stack_effect": 0.2,
@@ -72,7 +72,7 @@
     },
     "Focus Crystal": {
       "Damage": {
-        "effect": "Damage (Percent)",
+        "effect": "Damage (%)",
         "base_value": 1,
         "first_item": 0.15,
         "stack_effect": 0.15,
@@ -97,7 +97,7 @@
         "stack_type": "linear"
       },
       "Burn Damage": {
-        "effect": "Burn Damage (Percent)",
+        "effect": "Burn Damage (%)",
         "base_value": 0,
         "first_item": 1.5,
         "stack_effect": 0.75,
@@ -106,12 +106,12 @@
     },
     "Lens-Maker's Glasses": {
       "Critical Strike Chance": {
-        "effect": "Critical Strike Chance (Percent)",
+        "effect": "Critical Strike Chance (%)",
         "base_value": 0.01,
         "first_item": 0.1,
         "stack_effect": 0.1,
         "stack_type": "linear",
-        "limit": 1
+        "limit": [1, 10]
       }
     },
     "Medkit": {
@@ -134,7 +134,7 @@
     },
     "Paul's Goat Hoof": {
       "Movement Speed": {
-        "effect": "Movement Speed (Percent)",
+        "effect": "Movement Speed (%)",
         "base_value": 1,
         "first_item": 0.14,
         "stack_effect": 0.14,
@@ -143,7 +143,7 @@
     },
     "Personal Shield Generator": {
       "Shield": {
-        "effect": "Shield (Percent)",
+        "effect": "Shield (%)",
         "base_value": 0,
         "first_item": 0.08,
         "stack_effect": 0.08,
@@ -161,7 +161,7 @@
     },
     "Soldier's Syringe": {
       "Attack Speed": {
-        "effect": "Attack Speed (Percent)",
+        "effect": "Attack Speed (%)",
         "base_value": 1,
         "first_item": 0.15,
         "stack_effect": 0.15,
@@ -170,18 +170,18 @@
     },
     "Sticky Bomb": {
       "Bomb Chance": {
-        "effect": "Chance to Attach a Bomb (Percent)",
+        "effect": "Chance to Attach a Bomb (%)",
         "base_value": 0,
         "first_item": 0.05,
         "stack_effect": 0.05,
         "stack_type": "linear",
-        "limit": 1,
+        "limit": [1, 20],
         "proc": true
       }
     },
     "Stun Grenade": {
       "Chance to Stun": {
-        "effect": "Chance to Stun (Percent)",
+        "effect": "Chance to Stun (%)",
         "base_value": 0,
         "first_item": 0.05,
         "stack_effect": 0.05,
@@ -200,7 +200,7 @@
     },
     "Tougher Times": {
       "Chance to Block Damage": {
-        "effect": "Chance to Block Damage (Percent)",
+        "effect": "Chance to Block Damage (%)",
         "base_value": 0,
         "first_item": 0.15,
         "stack_effect": 0.15,
@@ -209,12 +209,12 @@
     },
     "Tri-Tip Dagger": {
       "Chance to Bleed": {
-        "effect": "Chance to Bleed Enemy (Percent)",
+        "effect": "Chance to Bleed Enemy (%)",
         "base_value": 0,
         "first_item": 0.15,
         "stack_effect": 0.15,
         "stack_type": "linear",
-        "limit": 1,
+        "limit": [1, 7],
         "proc": true
       }
     },
