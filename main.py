@@ -34,6 +34,9 @@ def calculate_stack(base_value, first_item, stack_effect, stack_type, n, limit=N
         legendary_rarity = n ** 2 / net_rarity
         value = [common_rarity, uncommon_rarity, legendary_rarity]
 
+    elif stack_type == 'genesis':
+        value = base_value / ((first_item if n > 0 else 1) + (stack_effect * (n - 1) if n > 1 else 0))
+
     return value
 
 

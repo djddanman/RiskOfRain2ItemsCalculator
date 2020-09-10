@@ -743,5 +743,118 @@
 				"stack_type": "linear"
 			}
 		}
+	},
+	"Boss": {
+		"Genesis Loop": {
+			"Recharge Time": {
+				"effect": "Recharge Time (s)",
+				"base_value": 30,
+				"first_item": 2,
+				"stack_effect": 1,
+				"stack_type": "genesis"
+			}
+		},
+		"Halcyon Seed": {
+			"Aurelionite Damage": {
+				"effect": "Aurelionite Damage (%)",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 0.5,
+				"stack_type": "linear"
+			},
+			"Aurelionite Health": {
+				"effect": "Aurelionite Health (%)",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Irradiant Pearl": {
+			"Stat Boost": {
+				"effectc": "Stat Boost (%)",
+				"base_value": 0,
+				"first_item": 0.1,
+				"stack_effect": 0.1,
+				"stack_type": "linear"
+			}
+		},
+		"Little Disciple": {
+			"Wisp Damage": {
+				"effect": "Wisp Damage (%)",
+				"base_value": 0,
+				"first_item": 3,
+				"stack_effect": 3,
+				"stack_type": "linear"
+			}
+		},
+		"Mired Urn": {
+			"Targets": {
+				"effect": "Targets",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Molten Perforator": {
+			"Damage": {
+				"effect": "Damage (%)",
+				"base_value": 0,
+				"first_item": 3,
+				"stack_effect": 3,
+				"stack_type": "linear"
+			}
+		},
+		"Pearl": {
+			"Health": {
+				"effect": "Health (%)",
+				"base_value": 1,
+				"first_item": 0.1,
+				"stack_effect": 0.1,
+				"stack_type": "linear"
+			}
+		},
+		"Queen's Gland": {
+			"Number of Guards": {
+				"effect": "Number of Guards",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Shatterspleen": {
+			"Explosion Damage": {
+				"effect": "Explosion Damage (%)",
+				"base_value": 0,
+				"first_item": 4,
+				"stack_effect": 4,
+				"stack_type": "linear"
+			},
+			"Additional Damage": {
+				"effect": "Additional Damage (% of monster's health)",
+				"base_value": 0,
+				"first_item": 0.15,
+				"stack_effect": 0.15,
+				"stack_type": "linear"
+			}
+		},
+		"Titanic Knurl": {
+			"Health Boost": {
+				"effect": "Health Boost (hp)",
+				"base_value": 0,
+				"first_item": 40,
+				"stack_effect": 40,
+				"stack_type": "linear"
+			},
+			"Regeneration Boost": {
+				"effect": "Regeneration Boost (hp/s)",
+				"base_value": 0,
+				"first_item": 1.6,
+				"stack_effect": 1.6,
+				"stack_type": "linear"
+			}
+		}
 	}
 }
