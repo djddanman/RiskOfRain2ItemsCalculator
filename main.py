@@ -37,6 +37,9 @@ def calculate_stack(base_value, first_item, stack_effect, stack_type, n, limit=N
     elif stack_type == 'genesis':
         value = base_value / ((first_item if n > 0 else 1) + (stack_effect * (n - 1) if n > 1 else 0))
 
+    elif stack_type == 'corpsebloom':
+        value = first_item * stack_effect ** (n - 1)
+
     return value
 
 
@@ -116,12 +119,16 @@ if __name__ == '__main__':
         plt.plot(n, [i[1] for i in values], label='Uncommon')
         plt.plot(n, [i[2] for i in values], label='Legendary')
         plt.legend()
+        plt.axis([0, n[-1], 0, 100])
 
     else:
-        plt.plot(n, values, label=['Common', 'Uncommon', 'Legendary'] if item == 'Rusted Key' else None)
+        plt.plot(n, values)
+        plt.axis([0, n[-1], 0, max(values)])
 
     plt.xlabel('Stack Size')
     plt.ylabel(item_effect['effect'])
     plt.title(item)
 
     plt.show()
+
+#TODO Finish adding Lunar items

@@ -856,5 +856,39 @@
 				"stack_type": "linear"
 			}
 		}
+	},
+	"Lunar": {
+		"Brittle Crown": {
+			"Gold Gained": {
+				"effect": "Gold Gained",
+				"base_value": 0,
+				"first_item": 2,
+				"stack_effect": 2,
+				"stack_type": "linear"
+			},
+			"Gold Lost": {
+				"effect": "Gold Lost (% of hp lost)",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Corpsebloom": {
+			"Healing": {
+				"effect": "Healing (%)",
+				"base_value": 1,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			},
+			"Maximum Healing": {
+				"effect": "Maximum Healing (%/s)",
+				"base_value": 1,
+				"first_item": 0.1,
+				"stack_effect": 0.5,
+				"stack_type": "corpsebloom"
+			}
+		}
 	}
 }
