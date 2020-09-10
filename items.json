@@ -540,5 +540,208 @@
 				"stack_type": "linear"
 			}
 		}
+	},
+	"Legendary": {
+		"57 Leaf Clover": {
+			"Rolls": {
+				"effect": "Rolls",
+				"base_value": 1,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Aegis": {
+			"Barrier Strength": {
+				"effect": "Barrier Strength (%)",
+				"base_value": 0,
+				"first_item": 0.5,
+				"stack_effect": 0.5,
+				"stack_type": "linear"
+			}
+		},
+		"Alien Head": {
+			"Skill Cooldown Reduction": {
+				"effect": "Skill Cooldown Reduction (%)",
+				"base_value": 0,
+				"first_item": 0.25,
+				"stack_effect": 0.25,
+				"stack_type": "exponential"
+			}
+		},
+		"Brainstalks": {
+			"Frenzy Time": {
+				"effect": "Frenzy Time (s)",
+				"base_value": 0,
+				"first_item": 4,
+				"stack_ffect": 4,
+				"stack_type": "linear"
+			}
+		},
+		"Brilliant Behemoth": {
+			"Radius": {
+				"effect": "Radius (m)",
+				"base_value": 0,
+				"first_item": 4,
+				"stack_effect": 1.5,
+				"stack_type": "linear"
+			}
+		},
+		"Ceremonial Dagger": {
+			"Damage": {
+				"effect": "Damage (%)",
+				"base_value": 0,
+				"first_item": 1.5,
+				"stack_effect": 1.5,
+				"stack_type": "linear"
+			}
+		},
+		"Dio's Best Friend": {
+			"Lives": {
+				"effect": "Lives",
+				"base_value": 1,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Frost Relic": {
+			"Maximum Radius": {
+				"effect": "Maximum Radius (m)",
+				"base_value": 0,
+				"first_item": 6,
+				"stack_effect": 6,
+				"stack_type": "linear"
+			}
+		},
+		"H3AD-5T v2": {
+			"Recharge Time": {
+				"effect": "Recharge Time Reduction (%)",
+				"base_value": 1,
+				"first_item": 0,
+				"stack_effect": 0.5,
+				"stack_type": "exponential"
+			}
+		},
+		"Happiest Mask": {
+			"Ghost Life": {
+				"effect": "Ghost Life (s)",
+				"base_value": 0,
+				"first_item": 30,
+				"stack_effect": 30,
+				"stack_type": "linear"
+			}
+		},
+		"Hardlight Afterburner": {
+			"Utility Skill Charges": {
+				"effect": "Utility Skill Charges",
+				"base_value": 1,
+				"first_item": 2,
+				"stack_effect": 2,
+				"stack_type": "linear"
+			}
+		},
+		"Interstellar Desk Plant": {
+			"Radius": {
+				"effect": "Radius (m)",
+				"base_value": 0,
+				"first_item": 5,
+				"stack_effect": 5,
+				"stack_type": "linear"
+			}
+		},
+		"N'kuhana's Opinion": {
+			"Healing Stored": {
+				"effect": "Healing Stored (%)",
+				"base_value": 0,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Rejuvination Rack": {
+			"Healing": {
+				"effect": "Healing (%)",
+				"base_value": 1,
+				"first_item": 1,
+				"stack_effect": 1,
+				"stack_type": "linear"
+			}
+		},
+		"Resonance Disk": {
+			"Launch Damage": {
+				"effect": "Launch Damage (%)",
+				"base_value": 0,
+				"first_item": 3,
+				"stack_effect": 3,
+				"stack_type": "linear"
+			},
+			"Explosion Damage": {
+				"effect": "Explosion Damage (%)",
+				"base_value": 0,
+				"first_item": 10,
+				"stack_effect": 10,
+				"stack_type": "linear"
+			},
+			"Return Damage": {
+				"effect": "Return Damage (%)",
+				"base_value": 0,
+				"first_item": 3,
+				"stack_effect": 3,
+				"stack_type": "linear"
+			}
+		},
+		"Sentient Meat Hook": {
+			"Chance to Fire": {
+				"effect": "Chance to Fire (%)",
+				"base_value": 0,
+				"first_item": 0.2,
+				"stack_effect": 0.2,
+				"stack_type": "hyperbolic"
+			},
+			"Targets": {
+				"effect": "Targets",
+				"base_value": 0,
+				"first_item": 10,
+				"stack_effect": 5,
+				"stack_type": "linear"
+			}
+		},
+		"Shattering Justice": {
+			"Duration": {
+				"effect": "Duration (s)",
+				"base_value": 0,
+				"first_item": 8,
+				"stack_effect": 8,
+				"stack_type": "linear"
+			}
+		},
+		"Soulbound Catalyst": {
+			"Equipment Cooldown Reduction": {
+				"effect": "Equipment Cooldown Reduction (s)",
+				"base_value": 0,
+				"first_item": 4,
+				"stack_effect": 2,
+				"stack_type": "linear"
+			}
+		},
+		"Unstable Tesla Coil": {
+			"Targets": {
+				"effect": "Targets",
+				"base_value": 0,
+				"first_item": 3,
+				"stack_effect": 2,
+				"stack_type": "linear"
+			}
+		},
+		"Wake of Vultures": {
+			"Duration": {
+				"effect": "Duration (s)",
+				"base_value": 0,
+				"first_item": 8,
+				"stack_effect": 5,
+				"stack_type": "linear"
+			}
+		}
 	}
 }
