@@ -103,7 +103,7 @@ if __name__ == '__main__':
                                 item_effect['stack_type'], i,
                                 item_effect['limit'][0] if 'limit' in item_effect else None)
         if item == 'Rusted Key':
-            value = [x * 2 for x in value]
+            value = [x * 100 for x in value]
         elif '%' in item_effect['effect']:
             value = value * 100
         values.append(value)
