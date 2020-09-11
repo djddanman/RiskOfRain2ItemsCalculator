@@ -114,10 +114,12 @@ if __name__ == '__main__':
             value = value * 100
         values.append(value)
 
+    #    plt.ion()
+
     if item == 'Rusted Key':
-        plt.plot(n, [i[0] for i in values], label ='Common')
-        plt.plot(n, [i[1] for i in values], label='Uncommon')
-        plt.plot(n, [i[2] for i in values], label='Legendary')
+        plt.plot(n, [i[0] for i in values], 'k-', label='Common')
+        plt.plot(n, [i[1] for i in values], 'g-', label='Uncommon')
+        plt.plot(n, [i[2] for i in values], 'r-', label='Legendary')
         plt.legend()
         plt.axis([0, n[-1], 0, 100])
 
@@ -129,6 +131,6 @@ if __name__ == '__main__':
     plt.ylabel(item_effect['effect'])
     plt.title(item)
 
-    plt.show()
+    plt.show(block=True)
 
-#TODO Finish adding Lunar items
+# TODO Finish adding Lunar items
