@@ -1,0 +1,112 @@
+{
+	"Acrid": {
+		"name": "Acrid",
+		"health": 160,
+		"health_per_level": 48,
+		"regen": 2.5,
+		"regen_per_level": 0.5,
+		"damage": 15,
+		"damage_per_level": 3,
+		"speed": 7,
+		"armor": 20
+	},
+	"Artificer": {
+		"name": "Artificer",
+		"health": 110,
+		"health_per_level": 33,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 0
+	},
+	"Captain": {
+		"name": "Captain",
+		"health": 110,
+		"health_per_level": 33,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 0
+	},
+	"Commando": {
+		"name": "Commando",
+		"health": 110,
+		"health_per_level": 33,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 0
+	},
+	"Engineer": {
+		"name": "Engineer",
+		"health": 130,
+		"health_per_level": 39,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 14,
+		"damage_per_level": 2.8,
+		"speed": 7,
+		"armor": 0
+	},
+	"Huntress": {
+		"name": "Huntress",
+		"health": 90,
+		"health_per_level": 27,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 0
+	},
+	"Loader": {
+		"name": "Loader",
+		"health": 160,
+		"health_per_level": 48,
+		"regen": 2.5,
+		"regen_per_level": 0.5,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 20
+	},
+	"Mercenary": {
+		"name": "Mercenary",
+		"health": 110,
+		"health_per_level": 33,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 20
+	},
+	"MUL-T": {
+		"name": "MUL-T",
+		"health": 200,
+		"health_per_level": 60,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 11,
+		"damage_per_level": 2.2,
+		"speed": 7,
+		"armor": 12
+	},
+	"REX": {
+		"name": "REX",
+		"health": 130,
+		"health_per_level": 39,
+		"regen": 1,
+		"regen_per_level": 0.2,
+		"damage": 12,
+		"damage_per_level": 2.4,
+		"speed": 7,
+		"armor": 20
+	}
+}
