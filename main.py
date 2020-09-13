@@ -28,9 +28,9 @@ def calculate_stack_lambda(base_value, first_item, stack_effect, stack_type, lim
         effect = lambda n: 1 - 1 / (1 + n) ** 0.33
 
     elif stack_type == 'key':
-        common_rarity = lambda i: 80 / (80 + 20 * n + n ** 2) * 100
-        uncommon_rarity = lambda i: n * 20 / (80 + 20 * n + n ** 2) * 100
-        legendary_rarity = lambda i: n ** 2 / (80 + 20 * n + n ** 2) * 100
+        common_rarity = lambda n: 80 / (80 + 20 * n + n ** 2) * 100
+        uncommon_rarity = lambda n: n * 20 / (80 + 20 * n + n ** 2) * 100
+        legendary_rarity = lambda n: n ** 2 / (80 + 20 * n + n ** 2) * 100
         effect = [common_rarity, uncommon_rarity, legendary_rarity]
 
     elif stack_type == 'genesis':
