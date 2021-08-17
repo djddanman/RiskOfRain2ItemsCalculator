@@ -9,3 +9,4 @@ class Survivor:
         self.damage_per_level = damage_per_level
         self.speed = speed
         self.armor = armor
+

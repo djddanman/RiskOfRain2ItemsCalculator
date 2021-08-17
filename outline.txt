@@ -1,0 +1,5 @@
+## Main code:
+
+Choose survivor
+Choose loadout
+Choose level
