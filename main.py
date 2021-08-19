@@ -1,4 +1,3 @@
-import PySimpleGUI as sg
 import json
 from pathlib import Path
 import dash
@@ -24,3 +23,5 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 # TODO Finish adding Lunar items
 # TODO Add new items
 # TODO End program or go to menu on plot close
+# TODO Fix changed item effects
+# TODO Refactor items.json with "effects" entry
